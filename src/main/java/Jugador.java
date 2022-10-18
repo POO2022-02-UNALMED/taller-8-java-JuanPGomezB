@@ -1,5 +1,4 @@
 package futbol;
-import java.lang.Math.*;
 
 public class Jugador extends Futbolista implements Comparable{
 	public short golesMarcados;

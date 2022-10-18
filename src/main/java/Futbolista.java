@@ -46,12 +46,7 @@ public abstract class Futbolista implements Comparable{
 	
 	
 	public boolean equals(Futbolista f) {
-		if (f instanceof Futbolista ) {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return this == f;
 	}
 	
 	public abstract boolean jugarConLasManos();
